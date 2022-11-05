@@ -15,4 +15,4 @@ lazy val root = (project in file("."))
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "2.1.0"
 
 //Scalatags
-libraryDependencies += "com.lihaoyi" %% "scalatags" % "0.12.0"
+libraryDependencies += "com.lihaoyi" %%% "scalatags" % "0.12.0"
