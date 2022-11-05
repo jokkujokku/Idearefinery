@@ -3,6 +3,8 @@ package refinery
 import org.scalajs.dom
 import org.scalajs.dom.document
 
+import java.io.File
+
 val filename = "src/main/HTML/index.html"
 
 object TutorialApp:
@@ -16,3 +18,9 @@ object TutorialApp:
 
   def main(args: Array[String]): Unit =
     appendPar(document.body, "Hello world!")
+
+  def getData(currentFile: File) =
+    val name = currentFile.getElementById("name")
+    val password = currentDocument.getElementById("password")
+    val usersFile = "src/main/scala/Backend/users"
+
