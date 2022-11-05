@@ -1,11 +1,12 @@
-package tutorial.webapp
+package refinery
 
 import org.scalajs.dom
 import org.scalajs.dom.document
 
-val filename = "index.html"
+val filename = "src/main/HTML/index.html"
 
 object TutorialApp:
+  def test = ???
 
   def appendPar(targetNode: dom.Node, text: String): Unit =
     val parNode = document.createElement("p")
