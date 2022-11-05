@@ -11,7 +11,8 @@ ul {
     margin 0;
     padding: 10px;
     overflow: hidden;
-    background-color: #F6872D;
+    background-color: orange;
+    border-bottom: 2px solid #555;
 }
 
 li {
@@ -124,7 +125,26 @@ li a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+img {
+  height: 42px;
+  margin-top: 4px;
+}
+
+#b {
+  color: black;
+  font-family: Arial;
+  font-size: 46px;
+}
+
+#o {
+  color: #ec6200;
+  font-family: Arial;
+  font-size: 46px;
+}
+
 #invension {
+  position: flex;
   background-color: #299a00;
   padding: 10px;
   padding-left: 20px;
@@ -132,15 +152,17 @@ li a:hover {
   border-radius: 20px;
   border: none;
   margin-left: 46%;
+
 }
 
 #invension:hover {
   background-color:#abde99;
 
+
 }
 .sidenav {
   list-style-type: none;
-  margin: 0;
+  margin: -1px;
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
