@@ -41,7 +41,8 @@ li a:hover {
     margin-top: 6%;
 }
 
-.submitbutton {
+#login {
     background-color: #b7b6bb;
-    padding: 10px;
+
 }
+
