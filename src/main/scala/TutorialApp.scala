@@ -18,4 +18,4 @@ object TutorialApp:
 
 
   def main(args: Array[String]): Unit =
-    initialList(document.body)
+    appendPar(document.body, "Hello world!")
