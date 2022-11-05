@@ -9,5 +9,7 @@ scalaJSUseMainModuleInitializer := true
 
 lazy val root = (project in file("."))
   .settings(
-    name := "Idearefinery"
-  )
+      name := "Idearefinery"
+)
+
+libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "2.1.0"
