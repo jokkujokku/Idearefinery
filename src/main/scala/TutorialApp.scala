@@ -6,7 +6,10 @@ import org.scalajs.dom.document
 val filename = "src/main/HTML/index.html"
 
 object TutorialApp:
-  def test = ???
+  def initialList(targetNode: dom.Node): Unit =
+    val parNode = document.createElement("ul")
+
+
 
   def appendPar(targetNode: dom.Node, text: String): Unit =
     val parNode = document.createElement("p")
@@ -15,4 +18,4 @@ object TutorialApp:
 
 
   def main(args: Array[String]): Unit =
-    appendPar(document.body, "Hello world!")
+    initialList(document.body)
